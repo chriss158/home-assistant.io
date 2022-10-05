@@ -345,6 +345,11 @@ type:
   required: true
   description: "`conditional`"
   type: string
+link_conditions:
+  required: false
+  description: Link between the conditions (`and` or `or`)
+  type: string
+  default: and
 conditions:
   required: true
   description: List of entity IDs and matching states.
