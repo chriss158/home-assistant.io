@@ -286,7 +286,7 @@ type:
   required: true
   description: "`conditional`"
   type: string
-ink_conditions:
+link_conditions:
   required: false
   description: Link between the conditions (`and` or `or`)
   type: string
