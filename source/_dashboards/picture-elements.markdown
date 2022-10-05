@@ -373,6 +373,14 @@ elements:
   type: list
 {% endconfiguration %}
 
+*one is required (`state` or `state_not`)
+
+#### Link between conditions
+
+Conditions can be either linked with `and` or with `or`. This can be set via the `link_conditions` configuration. 
+ - If the conditions are linked with `and`, then **all** entities must meet the state requriements.
+ - If the conditions are linked with `or`, then only **one** entity of all entities must meet the state requirement.
+
 ### Custom Elements
 
 The process for creating and referencing custom elements is the same as for custom cards.
